@@ -1,4 +1,3 @@
-
 const SEARCH_FORM = document.querySelector('.search-location');
 const CITY_VALUE = document.querySelector('.search-location input');
 const CITY_NAME = document.querySelector('.city-name p');
@@ -50,6 +49,7 @@ const updateWeatherApp = (city) => {
         </div>
     </div>
     `;
+
     if(isDayTime(IMAGE_NAME)){
         TIME_IMG.setAttribute('src', 'img/day_image.svg');
         if(CITY_NAME.classList.contains('text-white')){
