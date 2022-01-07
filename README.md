@@ -5,6 +5,7 @@ This application allows you to find the weather and some other indicators (humid
 
 ### _Technologies used:_ 
 - The application is written using **JS**.
+- The API ( [OpenWeatherMap](https://openweathermap.org/)) is used.
 -  There is an adaptation for all devices.
 
 
