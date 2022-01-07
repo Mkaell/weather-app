@@ -10,7 +10,7 @@ body {
 
 .container {
     max-width: 400px;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .title {
@@ -97,4 +97,15 @@ body {
     font-size: 50px;
     font-weight: 100;
     letter-spacing: -2px;
+}
+
+@media (max-width: 425px) {
+    html {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
 }
